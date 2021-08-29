@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: -1;
+}
+
+.additional-text {
+    font-size: 1.8rem;
+}
+
+.top-hero {
+    position: relative;
+    height: 20rem;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+}
+
+/* nawigacja */
+
+#navbar-example .navbar-brand {
+    font-size: 2rem;
+}
+
+#navbar-example .navbar-brand i,
+.fa-car-alt {
+    color: red;
+}
+
+#navbar-example .nav-link {
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+/* header */
+
+header {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one {
+    background-image: url('../img/car-63930_640-mini.jpg');
+}
+
+.carousel-img-two {
+    background-image: url('../img/corvette-3864797_640-mini.jpg');
+}
+
+.carousel-img-three {
+    background-image: url('../img/shelby-3821716_640-mini.jpg');
+}
+
+
+
+/* MAIN */
+
+section .card {
+    text-align: center;
+}
+
+section .card .fas {
+    font-size: 3.5rem;
+}
+
+section .card .card-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.banner {
+    position: relative;
+    height: 350px;
+    background-image: url('../img/sunset-685927_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+
+}
+
+/* .......... */
+/* aboutus    */
+/* ........... */
+
+.aboutus-hero {
+    background-image: url('../img/about/houston-texas-2609030_1920.jpg');
+    background-position: bottom;
+}
+/* --------------------- */
+
+.aboutus-medium {
+    background-color: rgba(0,0,0,0.03);
+}
+
+.engine-img {
+    background-image: url('../img/about/ferrari-2151243_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.aboutus-medium .container {
+padding: 2em .5em;
+}
+
+.aboutus-text {
+    padding: 1.8em;
+}
+
+.aboutus-medium h3 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.aboutus-text-right {
+    text-align: right;
+}
+.aboutus-img {
+    height: 300px;
+    background-image: url('../img/about/ferrari-2151243_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* -------------------- */
+
+.cards i {
+    font-size: 3rem;
+}
+
+.cards h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+/* services */
+
+.services-hero {
+    background-image: url('../img/services/oldtimer-4804725_1920.jpg');
+    background-position: 0 76%;
+}
+
+/* ------- */
+
+.services-hero-box {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+.services-hero-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.services-description .box-one {
+    background-image: url('../img/services/julian-hochgesang-xayPzzDCA4c-unsplash.jpg');
+}
+.services-description .box-two {
+    background-image: url('../img/services/denin-lawley-YWl9W8iBiUk-unsplash.jpg');
+}
+.services-description .box-three {
+    background-image: url('../img/services/car-sound-system-4786953_1920.jpg');
+}
+.services-description .box-four {
+    background-image: url('../img/services//serge-kutuzov-1K9-TbJWs2U-unsplash.jpg');
+}
+
+.services-description .card-header {
+    font-size: 2rem;
+    cursor: pointer;
+}
+.services-description h3 {
+    font-weight: bold;
+}
+
+.services-description .btn {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+/* ----------- */
+
+.projects-hero {
+    background-image: url('../img/projects/project-hero.jpg');
+    background-position: center;
+    background-size: bottom;
+}
+
+.projects-img {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.projects-gallery h3 {
+    font-weight: bold;
+}
+.projects-gallery .btn {
+    font-size: 2rem;
+}
+
+.project-one {
+    background-image: url('../img/projects/project1.jpg');
+}
+.project-two {
+    background-image: url('../img/projects/project2.jpg');
+}
+.project-three {
+    background-image: url('../img/projects/project3.jpg');
+}
+.project-four {
+    background-image: url('../img/projects/project4.jpg');
+}
+.project-five {
+    background-image: url('../img/projects/project5.jpg');
+}
+.project-six {
+    background-image: url('../img/projects/project6.jpg');
+}
+.project-seven {
+    background-image: url('../img/projects/project7.jpg');
+}
+.project-eight {
+    background-image: url('../img/projects/project8.jpg');
+}
+.project-nine {
+    background-image: url('../img/projects/project9.jpg');
+}
+
+/* kontakty */
+
+.contact-hero{
+    background-image: url('../img/contacts/shelby-3821715_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.contact h2, .contact h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact h2 {
+    font-size: 2.6rem;
+}
+
+.contact-logo {
+    font-size: 3rem;
+}
+
+.contact select, .contact input, .contact textarea {
+    font-size: 1.6rem;
+}
+
+.contact .btn {
+    padding: 0.3em 0.8em;
+    font-size: 2rem;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 400px;
+}
+footer {
+    font-size: 1.6rem;
+}
+
+@media (min-width: 992px) {
+    .aboutus-medium .container {
+        padding: 0;
+
+    }
+    .aboutus-shadow {
+        box-shadow: inset 0 5px 10px -5px rgba(0,0,0,0.4);
+    }
+
+    .aboutus-text {
+        padding: 5em 0;
+        transform: skew(-15deg);
+    }
+
+    .aboutus-text-left {
+        padding-right: 2em;
+        text-align: right;
+    }
+    .aboutus-text-right {
+        padding-left: 2em;
+        text-align: left;
+    }
+
+
+    .aboutus-img {
+        height: auto;
+        transform: skew(-15deg);
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .carousel-img-one {
+        background-image: url('../img/car-63930_1920.jpg');
+    }
+
+    .carousel-img-two {
+        background-image: url('../img/corvette-3864797_1920.jpg');
+    }
+
+    .carousel-img-three {
+        background-image: url('../img/shelby-3821716_1920.jpg');
+    }
+
+}
+
+/* about */
